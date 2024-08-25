@@ -80,22 +80,70 @@
   padding-bottom: 20px;
 }
 
-.second-col div {
-  
-}
-
 .reaction{
   background-color: var(--T-Light-red);
+  color: var(--Light-red);
 }
 
 .memory{
   background-color: var(--T-Orangey-yellow);
+  color: var(--Orangey-yellow);
 }
 
 .verbal{
   background-color: var(--T-Green-teal);
+  color: var(--Green-teal);
 }
 
 .visual{
   background-color: var(--T-Cobalt-blue);
+  color: var(--Cobalt-blue);
+}
+
+.second-col  {
+  padding: 35px;
+  padding-top: 20px;
+  font-weight: 700;
+}
+
+.second-col div{
+  padding: 15px;
+  border: 0 solid currentColor;
+  border-radius: 12px;
+}
+
+.second-col span{
+  color: hsl(0, 0%, 0%,0.5);
+  float: right;
+}
+
+.second-col section{
+  display: flex;
+  flex-direction: column;
+  height: 340px;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.second-col h2{
+  font-size: 19px;
+}
+
+.second-col img{
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+span b{
+  color: black;
+}
+
+button{
+  margin-top: 10px;
+  padding: 15px;
+  color: white;
+  background-color: var(--Dark-gray-blue);
+  font-size: 17px;
+  border: 0 solid currentColor;
+  border-radius: 40px;
 }
