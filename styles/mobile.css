@@ -1,12 +1,12 @@
 :root {
   --Light-red: hsl(0, 100%, 67%);
-  --T-Light-red: hsl(0, 100%, 67%,0.08);
+  --T-Light-red: hsl(0, 100%, 67%, 0.08);
   --Orangey-yellow: hsl(39, 100%, 56%);
-  --T-Orangey-yellow: hsl(39, 100%, 56%,0.08);
+  --T-Orangey-yellow: hsl(39, 100%, 56%, 0.08);
   --Green-teal: hsl(166, 100%, 37%);
-  --T-Green-teal: hsl(166, 100%, 37%,0.08);
+  --T-Green-teal: hsl(166, 100%, 37%, 0.08);
   --Cobalt-blue: hsl(234, 85%, 45%);
-  --T-Cobalt-blue: hsl(234, 85%, 45%,0.08);
+  --T-Cobalt-blue: hsl(234, 85%, 45%, 0.08);
   --White: hsl(0, 0%, 100%);
   --Pale-blue: hsl(221, 100%, 96%);
   --Light-lavender: hsl(241, 100%, 89%);
@@ -80,44 +80,44 @@
   padding-bottom: 20px;
 }
 
-.reaction{
+.reaction {
   background-color: var(--T-Light-red);
   color: var(--Light-red);
 }
 
-.memory{
+.memory {
   background-color: var(--T-Orangey-yellow);
   color: var(--Orangey-yellow);
 }
 
-.verbal{
+.verbal {
   background-color: var(--T-Green-teal);
   color: var(--Green-teal);
 }
 
-.visual{
+.visual {
   background-color: var(--T-Cobalt-blue);
   color: var(--Cobalt-blue);
 }
 
-.second-col  {
+.second-col {
   padding: 35px;
   padding-top: 20px;
   font-weight: 700;
 }
 
-.second-col div{
+.second-col div {
   padding: 15px;
   border: 0 solid currentColor;
   border-radius: 12px;
 }
 
-.second-col span{
-  color: hsl(0, 0%, 0%,0.5);
+.second-col span {
+  color: hsl(0, 0%, 0%, 0.5);
   float: right;
 }
 
-.second-col section{
+.second-col section {
   display: flex;
   flex-direction: column;
   height: 340px;
@@ -125,20 +125,20 @@
   margin: 20px 0;
 }
 
-.second-col h2{
+.second-col h2 {
   font-size: 19px;
 }
 
-.second-col img{
+.second-col img {
   vertical-align: middle;
   padding-right: 5px;
 }
 
-span b{
+span b {
   color: black;
 }
 
-button{
+button {
   margin-top: 10px;
   padding: 15px;
   color: white;
